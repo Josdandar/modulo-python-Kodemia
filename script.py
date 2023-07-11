@@ -63,3 +63,40 @@
 
 # numeros_pares = filter(lambda numero:numero%2==0, numeros)
 # print(list(numeros_pares))
+
+# def es_primo(num):
+#     for i in range(2, num-1):
+#         if num%1 ==0: return False
+#     return True
+
+# def primos_hasta(num):
+#     primos = []
+#     for i in range(1,num):
+#         resultado = es_primo(i)
+#         if resultado == True: primos.append(i)
+#     return primos
+
+# resultado = primos_hasta(13)
+# print(resultado)
+
+# def fibonacci(num):
+#     a,b = 0,1
+#     fibonacci_lista = [0]
+#     for i in range(num):
+#         if b > num: return fibonacci_lista
+#         else: 
+#             fibonacci_lista.append(b)
+#             a,b = b, a+b
+            
+# resultado = fibonacci(7)
+# print(resultado)
+
+# primos_hasta = lambda num: list(filter(lambda x: all(x % i != 0 for i in range(2, int(x ** 0.5)+1)), range(2,num)))
+# print(primos_hasta(15))
+
+#Un modulo es un archivo.py que se puede importar, o exportar a otros archivos.
+
+#Existen modulos de python, ya vienen incorporados en python. Existen los modulos de terceros (descargables), y OwnModules que son los creados por nosotros 
+#Utilizamos palabra reservada import, utilizamos as para nombrar y trabajar con nombre orto de objeto modulo
+#Podemos importar especificamente algo con from 
+#Al nombrar funciones comenzar la primer letra con mayuscula
